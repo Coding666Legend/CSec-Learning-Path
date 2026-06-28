@@ -579,6 +579,76 @@ Progress through each phase sequentially, but feel free to dive deeper into topi
 - [ ] Set up SSH key-based authentication and disable password login
 
 ---
+
+#### Endpoint Protection 🟡 Recommended
+> ⏱️ 1 week
+
+**⭐ START HERE (Free):** [Wazuh Open-Source HIDS Setup Guide (Free)](https://documentation.wazuh.com/current/getting-started/index.html)
+> Wazuh is free, open-source, and industry-used. Their documentation walks you through deploying a real host-based IDS. Hands-on from minute one.
+
+- [SANS SEC505: Securing Windows](https://www.cybersecuritycourses.com/course/sec505-securing-windows-and-powershell-automation/)
+- [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks/) *(Free to download)*
+- [Microsoft Defender for Endpoint](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/)
+- [Endpoint Detection and Response (EDR)](https://www.crowdstrike.com/cybersecurity-101/endpoint-security/endpoint-detection-and-response-edr/)
+
+**📚 Books:**
+- "Endpoint Security and Compliance Management" by Daniel Blander
+- "Malware Analyst's Cookbook" by Michael Hale Ligh
+
+**🔧 Tools:**
+- [Windows Defender](https://www.microsoft.com/en-us/windows/comprehensive-security)
+- [ClamAV](https://www.clamav.net/) - Open-source antivirus
+- [OSSEC](https://www.ossec.net/) - Host-based intrusion detection
+- [Wazuh](https://wazuh.com/) - Security monitoring solution
+
+**🏋️ Practical Exercises:**
+- Configure endpoint protection solutions
+- Implement application whitelisting
+- Detect and respond to malware infections
+- Create security policies for endpoints
+
+**✅ Milestones — Can you do these?**
+- [ ] Install and configure Wazuh on a Linux machine
+- [ ] Explain what EDR does that traditional antivirus doesn't
+- [ ] Configure Windows Defender and review its alert logs
+- [ ] Set up basic application whitelisting
+
+---
+
+#### Vulnerability Management 🟡 Recommended
+> ⏱️ 1 week
+
+**⭐ START HERE (Free):** [Nessus Essentials (Free for 16 IPs)](https://www.tenable.com/products/nessus/nessus-essentials)
+> Nessus Essentials is the industry-standard scanner, free for personal use. Install it, scan your lab VMs, and learn to read and prioritize the report. This is the most practical thing you can do for this topic.
+
+- [OpenVAS Tutorial](https://www.openvas.org/)
+- [Qualys Vulnerability Management](https://www.qualys.com/apps/vulnerability-management/)
+- [NIST Vulnerability Management](https://nvd.nist.gov/vuln/search)
+
+**📚 Books:**
+- "The Vulnerability Management Lifecycle" by Sagar Rahalkar
+- "Vulnerability Management" by Park Foreman
+
+**🔧 Tools:**
+- [Nessus](https://www.tenable.com/products/nessus) - Vulnerability scanner
+- [OpenVAS](https://www.openvas.org/) - Open-source vulnerability scanner
+- [Qualys](https://www.qualys.com/) - Cloud-based security and compliance
+- [Nexpose](https://www.rapid7.com/products/nexpose/) - Vulnerability management
+
+**🏋️ Practical Exercises:**
+- Perform vulnerability assessments
+- Prioritize vulnerabilities based on risk
+- Develop remediation plans
+- Implement vulnerability management processes
+
+**✅ Milestones — Can you do these?**
+- [ ] Run a full scan and produce a vulnerability report
+- [ ] Explain what CVSS scores mean and how to use them to prioritize
+- [ ] Look up a CVE on NVD and understand its details
+- [ ] Write a mock remediation plan for 3 high-severity findings
+
+---
+
 ### 6. Web Application Security
 
 ---
@@ -704,16 +774,8 @@ Progress through each phase sequentially, but feel free to dive deeper into topi
 #### Penetration Testing Methodology 🔴 Essential
 > ⏱️ 4–6 weeks
 
-**⭐ START HERE (Free):** 
-
+**⭐ START HERE (Free):** [Ethical Hacking in 12 Hours — Full Course by TCM Security (Free, YouTube)](https://www.youtube.com/watch?v=fNzpcB7ODxQ)
 > The best free end-to-end ethical hacking course available. TCM (The Cyber Mentor) walks you through a complete penetration test from recon to reporting in one video. Watch this first — it gives you the full picture before you go deep on any individual technique. No account needed, just watch.
-
-1. [Practical Ethical Hacking - Part 1](https://www.youtube.com/watch?v=3FNYvj2U0HM)
-2. [Practical Ethical Hacking - Part 2 ](https://www.youtube.com/watch?v=sH4JCwjybGs)
-3. [Active Directory PentTesing ](https://www.youtube.com/watch?v=VXxH4n684HE)
-4. [OSINT (Open-Source Intelligence) ](https://www.youtube.com/watch?v=qwA6MmbeGNo)
-5. [Linux Privilege Escalation ](https://www.youtube.com/watch?v=ZTnwg3qCdVM)
-6. [Windows Privilege Escalation ](https://www.youtube.com/watch?v=uTcrbNBcoxQ)
 
 > 💡 **Want structured paid training from the same instructor?** [TCM Security Academy](https://academy.tcm-sec.com/) offers affordable courses (Practical Ethical Hacking, Linux Privilege Escalation, Windows Privilege Escalation) for $30 each — among the best-value paid courses in the field.
 
@@ -818,6 +880,224 @@ Progress through each phase sequentially, but feel free to dive deeper into topi
 - [ ] Identify red flags in real phishing emails
 
 ---
+
+### 8. Defensive Security
+
+---
+
+#### Security Operations Center (SOC) 🔴 Essential
+> ⏱️ 3–4 weeks
+
+**⭐ START HERE (Free):** [LetsDefend SOC Analyst Path (Free tier)](https://app.letsdefend.io/path/soc-analyst-learning-path)
+> The best free SOC analyst training available. It simulates a real SOC environment — you work real alerts, investigate incidents, and make decisions. No other free resource comes close to this for hands-on SOC training.
+
+- [Blue Team Labs Online](https://blueteamlabs.online/) *(Free labs)*
+- [SANS SEC450: Blue Team Fundamentals](https://www.sans.org/cyber-security-courses/blue-team-fundamentals-security-operations-analysis/)
+- [Cybrary SOC Analyst](https://www.cybrary.it/career-path/soc-analyst)
+
+**📚 Books:**
+- "Blue Team Handbook: SOC, SIEM, and Threat Hunting" by Don Murdoch
+- "Security Operations Center: Building, Operating, and Maintaining your SOC" by Joseph Muniz
+- "The Practice of Network Security Monitoring" by Richard Bejtlich
+
+**🔧 Tools:**
+- [Splunk](https://www.splunk.com/) - SIEM *(Free trial/training version)*
+- [ELK Stack](https://www.elastic.co/elastic-stack) - Log analysis platform *(Free)*
+- [Wazuh](https://wazuh.com/) - Security monitoring solution *(Free)*
+- [TheHive](https://thehive-project.org/) - Security incident response platform *(Free)*
+
+**🏋️ Practical Exercises:**
+- Set up a SIEM solution
+- Create detection rules for common attacks
+- Perform log analysis and correlation
+- Develop incident response playbooks
+
+**✅ Milestones — Can you do these?**
+- [ ] Set up ELK Stack or Wazuh and ingest logs
+- [ ] Write a detection rule that fires on a failed login attempt
+- [ ] Investigate a simulated alert from beginning to end
+- [ ] Explain the difference between a SIEM, SOAR, and EDR
+- [ ] Triage 10 alerts on LetsDefend and document your analysis
+
+---
+
+#### Incident Response 🔴 Essential
+> ⏱️ 2–3 weeks
+
+**⭐ START HERE (Free):** [NIST Incident Response Guide SP 800-61r2 (Free PDF)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
+> The definitive free guide to incident response. Read Sections 2 and 3 first (about 30 pages). This is the framework used by real IR teams. After reading, practice with the Blue Team Labs Online scenarios.
+
+- [SANS Incident Handler's Handbook](https://www.sans.org/white-papers/33901/) *(Free whitepaper)*
+- [SANS FOR508: Advanced Digital Forensics, Incident Response, and Threat Hunting](https://www.sans.org/cyber-security-courses/advanced-incident-response-threat-hunting-training/)
+- [Incident Response Consortium](https://www.incidentresponse.com/)
+
+**📚 Books:**
+- "Incident Response & Computer Forensics" by Jason T. Luttgens
+- "The Art of Memory Forensics" by Michael Hale Ligh
+- "Digital Forensics and Incident Response" by Gerard Johansen
+
+**🔧 Tools:**
+- [TheHive](https://thehive-project.org/) - Security incident response platform
+- [Velociraptor](https://www.velocidex.com/) - Digital forensics and incident response *(Free)*
+- [MISP](https://www.misp-project.org/) - Threat intelligence platform *(Free)*
+- [GRR Rapid Response](https://github.com/google/grr) - Remote live forensics
+
+**🏋️ Practical Exercises:**
+- Develop an incident response plan
+- Simulate and respond to security incidents
+- Perform forensic analysis of compromised systems
+- Create incident response reports
+
+**✅ Milestones — Can you do these?**
+- [ ] Write a basic Incident Response Plan for a fictitious company
+- [ ] Explain the 6 phases of NIST IR (Prepare → Identify → Contain → Eradicate → Recover → Lessons Learned)
+- [ ] Investigate a simulated incident on Blue Team Labs Online
+- [ ] Produce an after-action report from an incident exercise
+
+---
+
+#### Digital Forensics 🟡 Recommended
+> ⏱️ 2–3 weeks
+
+**⭐ START HERE (Free):** [Autopsy Digital Forensics Training (Free)](https://www.autopsy.com/support/training/covid-19-free-autopsy-training/)
+> Autopsy is the industry-standard open-source forensics tool, and their official training is free. Go through it, analyze their sample images, and learn to find artifacts. Completely free, no lab setup beyond installing Autopsy.
+
+- [SANS FOR500: Windows Forensic Analysis](https://www.sans.org/cyber-security-courses/windows-forensic-analysis/)
+- [Digital Forensics Framework](https://github.com/arxsys/dff)
+- [NIST Computer Forensics Tools and Techniques Catalog](https://toolcatalog.nist.gov/) *(Free reference)*
+
+**📚 Books:**
+- "File System Forensic Analysis" by Brian Carrier
+- "Digital Forensics with Open Source Tools" by Cory Altheide and Harlan Carvey
+- "Windows Forensic Analysis Toolkit" by Harlan Carvey
+
+**🔧 Tools:**
+- [Autopsy](https://www.autopsy.com/) - Digital forensics platform *(Free)*
+- [FTK Imager](https://www.exterro.com/digital-forensics-software/ftk-imager) - Forensic imaging tool *(Free)*
+- [Volatility](https://www.volatilityfoundation.org/) - Memory forensics framework *(Free)*
+- [Sleuth Kit](https://www.sleuthkit.org/) - Disk analysis tools *(Free)*
+
+**🏋️ Practical Exercises:**
+- Perform disk forensics on compromised systems
+- Analyze memory dumps for evidence
+- Recover deleted files and data
+- Create forensic investigation reports
+
+**✅ Milestones — Can you do these?**
+- [ ] Analyze a disk image in Autopsy and locate deleted files
+- [ ] Run Volatility on a memory dump and extract running processes
+- [ ] Explain the chain of custody and why it matters legally
+- [ ] Write a forensic investigation report with findings and timeline
+
+---
+
+### 9. Cloud Security
+
+---
+
+#### Cloud Security Fundamentals 🟡 Recommended
+> ⏱️ 2–3 weeks
+
+**⭐ START HERE (Free):** [AWS Cloud Security Fundamentals (Free on AWS Training)](https://aws.amazon.com/training/course-descriptions/security-fundamentals/)
+> Free official AWS course. Even if you don't use AWS professionally, this is the clearest free introduction to cloud security concepts available. Create a free AWS account and follow along with the labs.
+
+- [Azure Security Technologies](https://learn.microsoft.com/en-us/training/courses/az-500t00) *(Free Microsoft Learn path)*
+- [Google Cloud Security](https://cloud.google.com/security/)
+- [Cloud Security Alliance Courses](https://cloudsecurityalliance.org/education/)
+- [IBM Cloud Security](https://www.ibm.com/cloud/learn/cloud-security)
+
+**📚 Books:**
+- "Cloud Security: A Comprehensive Guide" by Chris Dotson
+- "Practical Cloud Security" by Chris Dotson
+- "AWS Security" by Dylan Shields
+
+**🔧 Tools:**
+- [AWS Security Hub](https://aws.amazon.com/security-hub/)
+- [Azure Security Center](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft.azuresecuritycenter?tab=overview)
+- [Google Cloud Security Command Center](https://cloud.google.com/security-command-center)
+- [CloudSploit](https://github.com/aquasecurity/cloudsploit) - Cloud security scanner *(Free)*
+
+**🏋️ Practical Exercises:**
+- Set up secure cloud infrastructure
+- Implement identity and access management
+- Configure cloud security monitoring
+- Perform cloud security assessments
+
+**✅ Milestones — Can you do these?**
+- [ ] Explain the shared responsibility model in cloud security
+- [ ] Set up an IAM policy in AWS with least-privilege access
+- [ ] Enable CloudTrail and explain what it logs
+- [ ] Identify a misconfigured S3 bucket and fix it
+
+---
+
+#### Cloud Security Architecture 🟡 Recommended
+> ⏱️ 2 weeks
+
+**⭐ START HERE (Free):** [AWS Well-Architected Framework — Security Pillar (Free)](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html)
+> Free, official, and deeply practical. Read the security pillar document — it's the industry baseline for secure cloud architecture. Takes about 2 hours to read and covers more than most paid courses.
+
+- [Cloud Security Alliance Guidance](https://cloudsecurityalliance.org/research/guidance/)
+- [Azure Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/)
+- [Google Cloud Architecture Framework](https://cloud.google.com/architecture/framework)
+
+**📚 Books:**
+- "Cloud Security Architecture" by Lee Newcombe
+- "Architecting for Security in the Cloud" by David Linthicum
+
+**🔧 Tools:**
+- [Terraform](https://www.terraform.io/) - Infrastructure as code *(Free)*
+- [CloudFormation](https://aws.amazon.com/cloudformation/) - AWS infrastructure as code
+- [Azure Resource Manager](https://azure.microsoft.com/en-us/features/resource-manager/) - Azure infrastructure as code
+
+**🏋️ Practical Exercises:**
+- Design a secure cloud architecture
+- Implement defense in depth in cloud environments
+- Create infrastructure as code templates with security controls
+- Perform threat modeling for cloud architectures
+
+**✅ Milestones — Can you do these?**
+- [ ] Draw a secure 3-tier cloud architecture diagram
+- [ ] Write a Terraform template that enforces encryption at rest
+- [ ] Explain defense-in-depth applied to a cloud environment
+- [ ] Run a cloud security assessment with CloudSploit
+
+---
+
+#### Container Security 🟢 Optional
+> ⏱️ 1–2 weeks
+
+**⭐ START HERE (Free):** [Docker Security Documentation (Free official docs)](https://docs.docker.com/engine/security/)
+> Official, free, and concise. Read this start to finish, then try breaking your own Docker setup using the vulnerabilities described. No extra resources needed to get started.
+
+- [Kubernetes Security](https://kubernetes.io/docs/concepts/security/)
+- [OWASP Docker Security](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) *(Free cheat sheet)*
+- [Kubernetes Security Best Practices](https://kubernetes.io/blog/2016/08/security-best-practices-kubernetes-deployment/)
+
+**📚 Books:**
+- "Container Security" by Liz Rice
+- "Kubernetes Security" by Liz Rice and Michael Hausenblas
+
+**🔧 Tools:**
+- [Clair](https://github.com/quay/clair) - Container vulnerability scanner
+- [Trivy](https://github.com/aquasecurity/trivy) - Container vulnerability scanner *(Free)*
+- [Falco](https://falco.org/) - Container runtime security *(Free)*
+- [Aqua Security](https://www.aquasec.com/) - Container security platform
+
+**🏋️ Practical Exercises:**
+- Secure Docker containers and images
+- Implement Kubernetes security controls
+- Set up container vulnerability scanning
+- Monitor container runtime security
+
+**✅ Milestones — Can you do these?**
+- [ ] Run Trivy against a Docker image and interpret results
+- [ ] Explain the difference between container isolation and VM isolation
+- [ ] Set up Falco and detect an anomalous container behavior
+- [ ] Harden a Dockerfile using Docker security best practices
+
+---
+
 ## Advanced Phase
 > ⏱️ **Estimated Time: Ongoing** | These are 🟡 Recommended unless they match your career specialty
 
@@ -1051,13 +1331,15 @@ Progress through each phase sequentially, but feel free to dive deeper into topi
 
 **Certification Path by Career Goal:**
 
-| Goal                | Start With             | Then                               | Advanced         |
-| ------------------- | ---------------------- | ---------------------------------- | ---------------- |
-| Penetration Testing | none - free resources  | PNPT                               | OSCP or HTB CPTS |
-| Red Team            | CompTIA Security+      | CRTO (Certified Red Team Operator) | CRTE → OSED      |
-| Cloud Security      | AWS Cloud Practitioner | AWS Security Specialty             | CCSP             |
-| Management / GRC    | CISSP Associate        | CISM                               | CISO role        |
-| Web App Pentesting  | CompTIA Security+      | eWPT (eLearnSecurity)              | OSWE or BSCP     |
+| Goal | Start With | Then | Advanced |
+|------|-----------|------|----------|
+| General Security | CompTIA Security+ | CySA+ or PenTest+ | CISSP |
+| Penetration Testing | CompTIA Security+ | eJPT (free exam) → eWPT | OSCP or HTB CPTS |
+| Red Team | CompTIA Security+ | CRTO (Certified Red Team Operator) | CRTE → OSED |
+| Blue Team / SOC | CompTIA Security+ | CySA+ | GCIH |
+| Cloud Security | AWS Cloud Practitioner | AWS Security Specialty | CCSP |
+| Management / GRC | CISSP Associate | CISM | CISO role |
+| Web App Pentesting | CompTIA Security+ | eWPT (eLearnSecurity) | OSWE or BSCP |
 
 > 💡 **Notes on newer certs worth knowing:**
 > - **[HTB CPTS](https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist/)** — HackTheBox's Certified Penetration Testing Specialist. Rigorous, practical, well-respected, and more affordable than OSCP. Excellent alternative or stepping stone.
@@ -1069,6 +1351,8 @@ Progress through each phase sequentially, but feel free to dive deeper into topi
 
 - [CompTIA Certification Roadmap](https://www.comptia.org/certifications/which-certification)
 - [SANS Certification Roadmap](https://www.sans.org/cyber-security-skills-roadmap/)
+- [ISC2 Certifications](https://www.isc2.org/Certifications)
+- [ISACA Certifications](https://www.isaca.org/credentialing)
 - [EC-Council Certifications](https://www.eccouncil.org/programs/)
 
 **📚 Books:**
@@ -1501,12 +1785,44 @@ Progress through each phase sequentially, but feel free to dive deeper into topi
 
 ## Career Paths
 
+### Defensive Roles
+
+- **Security Analyst**
+  - **Responsibilities**: Monitor and analyze security alerts, implement security measures, conduct vulnerability assessments
+  - **Skills Required**: Network security, security tools, vulnerability assessment, incident response
+  - **Certifications**: CompTIA Security+, CySA+, GIAC GSEC
+  - **Career Progression**: Senior Security Analyst → Security Engineer → Security Architect
+
+- **Security Engineer**
+  - **Responsibilities**: Design and implement security solutions, manage security infrastructure, conduct security assessments
+  - **Skills Required**: Network security, security architecture, security tools, scripting
+  - **Certifications**: CISSP, GIAC GSEC, CEH
+  - **Career Progression**: Senior Security Engineer → Security Architect → CISO
+
+- **SOC Analyst**
+  - **Responsibilities**: Monitor security events, analyze alerts, respond to incidents, maintain security tools
+  - **Skills Required**: SIEM tools, incident response, network security, log analysis
+  - **Certifications**: CompTIA Security+, CySA+, GCIH
+  - **Career Progression**: SOC Analyst Level 2 → SOC Analyst Level 3 → SOC Manager
+
+- **Incident Responder**
+  - **Responsibilities**: Investigate and remediate security incidents, develop incident response plans, conduct forensic analysis
+  - **Skills Required**: Digital forensics, malware analysis, incident response, threat hunting
+  - **Certifications**: GCIH, GCFA, GREM
+  - **Career Progression**: Senior Incident Responder → Incident Response Manager → Security Director
+
+- **Security Architect**
+  - **Responsibilities**: Design secure systems and networks, develop security standards, evaluate security solutions
+  - **Skills Required**: Security architecture, risk assessment, compliance, technical leadership
+  - **Certifications**: CISSP, CISM, SABSA
+  - **Career Progression**: Senior Security Architect → Security Director → CISO
+
 ### Offensive Roles
 
 - **Penetration Tester**
   - **Responsibilities**: Test systems for vulnerabilities through simulated attacks, document findings, recommend remediation
   - **Skills Required**: Ethical hacking, exploitation, scripting, report writing
-  - **Certifications**: PNPT, OSCP, CEH, PenTest+
+  - **Certifications**: OSCP, CEH, PenTest+
   - **Career Progression**: Senior Penetration Tester → Red Team Lead → Security Consultant
 
 - **Red Team Operator**
@@ -1607,6 +1923,7 @@ Progress through each phase sequentially, but feel free to dive deeper into topi
 - [CompTIA](https://www.comptia.org/) - Computing Technology Industry Association
 - [CSA](https://cloudsecurityalliance.org/) - Cloud Security Alliance
 - [FIRST](https://www.first.org/) - Forum of Incident Response and Security Teams
+- [Women in Cybersecurity (WiCyS)](https://www.wicys.org/) - Organization for women in cybersecurity
 
 ### Conferences
 
