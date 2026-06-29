@@ -803,7 +803,7 @@ Progress through each phase sequentially, but feel free to dive deeper into topi
 - [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit)
 - [Gophish](https://getgophish.com/) - Open-source phishing framework *(Free)*
 - [King Phisher](https://github.com/securestate/king-phisher) - Phishing campaign toolkit
-- [SpiderFoot](https://www.spiderfoot.net/) - OSINT automation tool
+- [SpiderFoot](https://github.com/smicallef/spiderfoot) - OSINT automation tool
 
 **🏋️ Practical Exercises:**
 - Create and execute a phishing campaign (in a controlled environment)
