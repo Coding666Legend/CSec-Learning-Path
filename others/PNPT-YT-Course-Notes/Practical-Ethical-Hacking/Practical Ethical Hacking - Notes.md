@@ -81,7 +81,7 @@
 
 6. **Subnetting:** (Used to determine number of hosts for a Network)
 
-![[CSec-Learning-Path/others/PNPT-YT-Course-Notes/Practical-Ethical-Hacking/assets/TCM-subnetting-cheatsheet.png]]
+![[others/PNPT-YT-Course-Notes/Practical-Ethical-Hacking/assets/TCM-subnetting-cheatsheet.png]]
 
 |        | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8 (255.0.0.0)         |
 | ------ | --- | --- | --- | --- | --- | --- | --- | ---------------------- |
