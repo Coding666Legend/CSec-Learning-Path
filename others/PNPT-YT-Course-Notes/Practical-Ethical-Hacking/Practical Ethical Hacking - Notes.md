@@ -79,9 +79,9 @@
 | HTTP (80) / HTTPS (443) |               |
 | SMB (139 + 445)         |               |
 
-6. **Subnetting:**
+6. **Subnetting:** (Used to determine number of hosts for a Network)
 
-![[assets/TCM-subnetting-cheatsheet.png]]
+![[CSec-Learning-Path/others/PNPT-YT-Course-Notes/Practical-Ethical-Hacking/assets/TCM-subnetting-cheatsheet.png]]
 
 |        | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8 (255.0.0.0)         |
 | ------ | --- | --- | --- | --- | --- | --- | --- | ---------------------- |
@@ -93,7 +93,7 @@
 | Subnet | 128 | 192 | 224 | 240 | 248 | 252 | 254 | 255                    |
 
 **Notes:**
-
+> CIDR Notation = 192.168.0.1/24 ; CIDR Value = 24
 1. Hosts double each increment of a CIDR.
 2. Always subtract 2 from Host total.
     - Network ID - First Address (inet - ifconfig)
@@ -106,9 +106,7 @@ https://www.ipaddressguide.com/cidr
 more similar IP tools available on:
 https://www.ipaddressguide.com/
 
-**Numerical Workspace:**
-
-
+	
 ---
 
 #### Kali Linux Overview
@@ -311,7 +309,6 @@ python3 -m http.server 80
         /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt
         ```
 
------>> July - 2 - 2026
 **Enumerating SMB/Samba  (139 + 445):**
 	**Metasploit Framework:**
 		auxiliary: use auxiliary/scanner/smb/smb_version
