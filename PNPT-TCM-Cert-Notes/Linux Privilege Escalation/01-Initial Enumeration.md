@@ -74,8 +74,13 @@ netstat -ano
 
 Following Commands:
 ```bash
+grep --color=auto -rnw '/' -ie "PASSWORD" --color=always 2> /dev/null
+# A quick Fu..
+# Could try "PASSWORD=" as well.
 
-
+locate password | more 
+# Find password as a file name.
+# Could try pass, keys, secret, etc. keywords
 
 
 
