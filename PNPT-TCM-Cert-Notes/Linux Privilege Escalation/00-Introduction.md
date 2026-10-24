@@ -15,3 +15,6 @@ ssh -o HostKeyAlgorithms=+ssh-rsa TCM@<machine-ip>
 ```
 4. Successfully Connected To The Machine....
 ---
+
+**MAJOR REFRENCE :**
+https://swisskyrepo.github.io/InternalAllTheThings/redteam/escalation/linux-privilege-escalation/
