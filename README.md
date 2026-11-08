@@ -1,7 +1,7 @@
 # Offensive Security to Elite Security Engineering Blueprint
 ## 🛡️ Personal Technical & Professional Career Blueprint | 2026–2030+
 
-> [!ABSTRACT] **Executive Vision**
+> [!TIP] **Executive Vision**
 > - **Primary Specialization:** Offensive Security *(VAPT → Advanced Penetration Testing → Red Teaming)*
 > - **Long-Term Objective:** Elite Security Engineer with deep offensive security expertise
 > - **Core Philosophy:** *Methodology over tools. Technical depth over superficial breadth. Demonstrable ability over certificates.*
