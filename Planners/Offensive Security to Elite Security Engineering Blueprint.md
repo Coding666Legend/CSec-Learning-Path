@@ -22,7 +22,7 @@
 > [!NOTE] **Vault Cross-References**
 > - 📅 **Active Prep:** [[PNPT - Planner (July 2026 - Feb 2027)|PNPT Study Planner]]
 > - ⚔️ **Execution Manual:** [[PNPT-COMPLETE-ASSESSMENT-PLAYBOOK|PNPT Complete Assessment Playbook]]
-> - 📚 **Foundations:** [[Practical Ethical Hacking|Practical Ethical Hacking Notes]]
+> - 📚 **Foundations:** [[CSec-Learning-Path/PNPT-TCM-Cert-Notes/01-Practical Ethical Hacking (PEH)/01-Penetration Testing Fundamentals/00-INTRODUCTION|Practical Ethical Hacking Notes]]
 
 ---
 
