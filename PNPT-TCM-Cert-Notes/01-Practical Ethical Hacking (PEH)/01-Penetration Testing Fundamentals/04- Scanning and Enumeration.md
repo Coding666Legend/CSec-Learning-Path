@@ -6,4 +6,13 @@ Using Nmap (Network Mapper) to discover live hosts, identify open ports, detect 
 
 > Note:
 > `arp-scan -l` lists all the networking devices present in the network
-> Using Nmap (Network Mapper) to discover live hosts, identify open ports, detect running services and versions, and fingerprint operating systems. It supports network mapping and vulnerability assessment by revealing exposed services and potential entry points within the authorized target scope.
+> `netdiscover -r <net-ip/cidr>` does the same
+
+Commands :
+```bash
+nmap -T4 -p- -A <target-ip>
+# nmap go to snippet...
+```
+
+# Enumerating HTTP and HTTPS
+Enumerating HTTP/HTTPS services to identify web technologies, directories, virtual hosts, endpoints, headers, certificates, and application functionality. Tools like **Gobuster, Feroxbuster, Nikto, and WhatWeb** help uncover hidden resources, misconfigurations, and potential web application attack surfaces.
