@@ -88,3 +88,28 @@ ssh -o HostKeyAlgorithms=+ssh-rsa root@192.168.122.95
 
 # Generally RCE opportunites not found. Hammering with brute force might work
 ```
+
+# Researching Potential Vulnerablities
+Identifying potential vulnerabilities in discovered services, software versions, and technologies by researching CVEs, security advisories, and known exploits. Resources like **NVD, Exploit-DB, and searchsploit** help assess exploitability and identify possible attack paths.
+
+#### Security Testing - Metasploitable 2 machine
+Potential Vulnerabilities Research :
+1. **HTTP (80)** -
+	`80/tcp    open  http        Apache httpd 2.2.8 ((Ubuntu) DAV/2)`
+	(from) searchsploit
+	Apache mod_ssl < 2.8.7 OpenSSL - 'OpenFuck.c' Remote Buffer Overflow
+	https://github.com/heltonWernik/OpenLuck
+2.  SMB (139,445) -
+	`139/tcp   open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)`
+	`445/tcp   open  netbios-ssn Samba smbd 3.0.20-Debian (workgroup: WORKGROUP)`
+	(from) searchsploit
+	Samba 3.0.20 < 3.0.25rc3 - 'Username' map script' Command Execution (Metasploit) 
+3. SSH (22) - 
+	`22/tcp    open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)`
+	potentially - https://github.com/talha3117/OpenSSH-4.7p1-CVE-2008-5161-Exploit
+
+# Vulnerability Scanning with Nessus
+Using **Nessus** to automatically scan target systems for known vulnerabilities, missing patches, outdated software, and security misconfigurations. It identifies potential weaknesses, assigns severity ratings, and generates reports to help prioritize vulnerabilities for further manual validation and exploitation.
+
+> NOTES PENDING....
+
