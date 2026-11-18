@@ -9,6 +9,7 @@
 | **Sys Pass:**            | Pass123!                   |
 | **root domain name:**    | ECorp.local (MARVEL.local) |
 | **DSRM pass:**           | Pass123!                   |
+
 **Windows 10 Clients (DUs) :**
 
 | User PC 1      |                                   | User PC 2      |                  |
@@ -26,6 +27,7 @@
 | Full Name:  | Elliot Alderson | Full Name:  | Darlene Alderson |
 | login name: | EAlderson       | login name: | DAlderson        |
 | pass:       | EA@DU443        | pass:       | DA@DU80          |
+
 **Domain Admin (DA) :**
 
 | DA          |                |
