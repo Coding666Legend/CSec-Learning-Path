@@ -33,7 +33,8 @@
 | Full Name:  | Tyrell Wellick |
 | login name: | TWellick       |
 | pass:       | TW@DA2022      |
-**Fake Domain Admin - (A service account)**
+
+**Fake Domain Admin - (A service account) :**
 
 | Fake DA     |             |
 | ----------- | ----------- |
