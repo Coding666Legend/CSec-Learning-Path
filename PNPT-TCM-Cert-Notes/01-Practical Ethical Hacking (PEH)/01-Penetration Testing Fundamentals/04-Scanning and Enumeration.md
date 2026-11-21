@@ -39,14 +39,14 @@ File with list of dirs/files (wordlist)
 Enumerating **SMB (Server Message Block)** to identify shared folders, accessible files, users, groups, domain information, and SMB configurations. Tools like **Enum4linux-ng, smbclient, and Nmap** help discover exposed shares, weak permissions, and potential credential or information disclosure vulnerabilities.
 #### 139 vs 445
 
-|Feature|Port 139|Port 445|
-|---|---|---|
-|Protocol|NetBIOS Session Service|Direct-hosted SMB|
-|Transport|TCP|TCP|
-|SMB type|NetBIOS-based SMB|Native SMB|
-|NetBIOS dependency|Yes|No|
-|Primary purpose|SMB over NetBIOS|SMB directly over TCP/IP|
-|Modern usage|Legacy|Modern Windows environments|
+| Feature            | Port 139                | Port 445                    |     |
+| ------------------ | ----------------------- | --------------------------- | --- |
+| Protocol           | NetBIOS Session Service | Direct-hosted SMB           |     |
+| Transport          | TCP                     | TCP                         |     |
+| SMB type           | NetBIOS-based SMB       | Native SMB                  |     |
+| NetBIOS dependency | Yes                     | No                          |     |
+| Primary purpose    | SMB over NetBIOS        | SMB directly over TCP/IP    |     |
+| Modern usage       | Legacy                  | Modern Windows environments |     |
 #### Metasploit Framework (tool intro)
 ```bash
 msfconsole
